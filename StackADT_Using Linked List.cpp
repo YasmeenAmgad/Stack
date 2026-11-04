@@ -66,6 +66,7 @@ int main() {
     cout<<"the element in this position is:"<<peek(pos)<<endl;
 
     pop();
+        cout<<"The top element is:"<<stacktop()<<endl;
 
     if (isempty()) {
         cout<<"Stack is empty"<<endl;
